@@ -13,7 +13,8 @@ SCOPES = ['https://www.googleapis.com/auth/calendar.events.readonly']
 
 
 
-REDIRECT_URL = "http://localhost:8000/rest/v1/calender/callback/"
+# REDIRECT_URL = "http://localhost:8000/rest/v1/calender/callback/"
+REDIRECT_URL = "https://calendereasy.herokuapp.com/rest/v1/calender/callback/"
 
 
 def login_view(request):
