@@ -1,0 +1,18 @@
+{% extends 'base.html' %}
+
+
+{% block content %}
+<h1>Events</h1>
+<hr>
+<div>
+    <ul>
+        {% for event in data %}
+        <li>
+            Time: {{event.start}} <br> Summary: {{event.summary}}
+        </li>
+        {% empty %}
+        <p class="lead">No Events!</p>
+        {% endfor %}
+    </ul>
+</div>
+{% endblock %}
