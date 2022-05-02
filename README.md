@@ -13,7 +13,7 @@ Endpoints: <br>
 **Local Setup**
 ---
 *Requirements:- Python 3.8+*<br>
-1) `git clone https://github.com/ayushxeon/trackit2.0`
+1) `git clone https://github.com/ayushxeon/googleapi-calender`
 (For Contrituber: Use your Forked URL)
 2) `cd trackit2.0`
 3) `python -m venv env`
