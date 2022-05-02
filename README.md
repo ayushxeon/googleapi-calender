@@ -15,7 +15,7 @@ Endpoints: <br>
 *Requirements:- Python 3.8+*<br>
 1) `git clone https://github.com/ayushxeon/googleapi-calender`
 (For Contrituber: Use your Forked URL)
-2) `cd trackit2.0`
+2) `cd googleapi-calender`
 3) `python -m venv env`
 4) `source env/bin/activate` (Mac/Linux)<br>
    `env\Scripts\activate` (Windows-Powershell)
